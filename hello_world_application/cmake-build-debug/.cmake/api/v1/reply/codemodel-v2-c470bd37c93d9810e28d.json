@@ -1,0 +1,144 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "formatter_ex",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-formatter_ex-Debug-49239f37def7fe6a520b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/daniil/projects/lab03/formatter_ex_lib",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "formatter_ex/formatter",
+					"jsonFile" : "directory-formatter_ex.formatter-Debug-ca227ca57cacc71218e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "/home/daniil/projects/lab03/formatter_lib",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hello_world",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "formatter_ex",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "formatter",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "formatter::@4a7534795f21d8e2d34e",
+					"jsonFile" : "target-formatter-Debug-eccf408d0a566e303acf.json",
+					"name" : "formatter",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "formatter_ex::@5713e3e197c55857be1c",
+					"jsonFile" : "target-formatter_ex-Debug-bfbdb12bb5e52e589024.json",
+					"name" : "formatter_ex",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hello_world::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello_world-Debug-89251fc66bebb02bf0e3.json",
+					"name" : "hello_world",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/daniil/projects/lab03/hello_world_application/cmake-build-debug",
+		"source" : "/home/daniil/projects/lab03/hello_world_application"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

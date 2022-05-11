@@ -1,0 +1,6 @@
+/home/daniil/projects/lab03/formatter_ex_lib/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/daniil/projects/lab03/formatter_ex_lib/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/daniil/projects/lab03/formatter_ex_lib/cmake-build-debug/CMakeFiles/formatter_ex.dir
+/home/daniil/projects/lab03/formatter_ex_lib/cmake-build-debug/formatter/CMakeFiles/rebuild_cache.dir
+/home/daniil/projects/lab03/formatter_ex_lib/cmake-build-debug/formatter/CMakeFiles/edit_cache.dir
+/home/daniil/projects/lab03/formatter_ex_lib/cmake-build-debug/formatter/CMakeFiles/formatter.dir

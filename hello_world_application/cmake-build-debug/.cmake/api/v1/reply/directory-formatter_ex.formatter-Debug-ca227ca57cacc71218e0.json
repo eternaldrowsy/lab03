@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "formatter_ex/formatter",
+		"source" : "/home/daniil/projects/lab03/formatter_lib"
+	}
+}

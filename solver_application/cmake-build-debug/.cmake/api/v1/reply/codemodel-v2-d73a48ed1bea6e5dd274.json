@@ -1,0 +1,180 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "formatter_ex",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-formatter_ex-Debug-49239f37def7fe6a520b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/daniil/projects/lab03/formatter_ex_lib",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "formatter_ex/formatter",
+					"jsonFile" : "directory-formatter_ex.formatter-Debug-ca227ca57cacc71218e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "/home/daniil/projects/lab03/formatter_lib",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "solver",
+					"jsonFile" : "directory-solver-Debug-a5e9e75c73b853860bf7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "/home/daniil/projects/lab03/solver_lib",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "equation",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "formatter_ex",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "formatter",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "solver",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "equation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-equation-Debug-2159529142a130f75bbb.json",
+					"name" : "equation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "formatter::@4a7534795f21d8e2d34e",
+					"jsonFile" : "target-formatter-Debug-eccf408d0a566e303acf.json",
+					"name" : "formatter",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "formatter_ex::@5713e3e197c55857be1c",
+					"jsonFile" : "target-formatter_ex-Debug-bfbdb12bb5e52e589024.json",
+					"name" : "formatter_ex",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "solver::@f523546a396b221e20a4",
+					"jsonFile" : "target-solver-Debug-8471c62b570419454e23.json",
+					"name" : "solver",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/daniil/projects/lab03/solver_application/cmake-build-debug",
+		"source" : "/home/daniil/projects/lab03/solver_application"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,102 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "formatter",
+					"jsonFile" : "directory-formatter-Debug-25d02746b934a77452dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/daniil/projects/lab03/formatter_lib",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "formatter_ex",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "formatter",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "formatter::@3824c02002762861f54f",
+					"jsonFile" : "target-formatter-Debug-692b1c349ab4d9f218e7.json",
+					"name" : "formatter",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "formatter_ex::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-formatter_ex-Debug-d422f81ccbf0110f2d03.json",
+					"name" : "formatter_ex",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/daniil/projects/lab03/formatter_ex_lib/cmake-build-debug",
+		"source" : "/home/daniil/projects/lab03/formatter_ex_lib"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
